@@ -57,7 +57,7 @@ params:
 
     sidebar:
         emoji: 🍥
-        subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        subtitle: 从哪里跌倒，就从哪里站起来。
         avatar:
             enabled: true
             local: true
