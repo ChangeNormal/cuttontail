@@ -8,6 +8,7 @@ categories: [
 tags: [
     "blog"
 ]
+image: "12.jpg"
 ---
 
 对于博客我其实在2021年就已经有过搭建，当时经同学介绍使用的是Hexo，如今我换成了Hugo，感觉用起来不错。
