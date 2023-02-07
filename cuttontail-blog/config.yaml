@@ -1,5 +1,5 @@
 baseurl: https://ChangeNormal.github.io/
-languageCode: zh-cn
+languageCode: en
 theme: hugo-theme-stack
 paginate: 5
 title: Libin's Site
@@ -48,8 +48,8 @@ params:
     favicon:  # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
 
     footer:
-        since: 2020
-        customText:
+        since: 2023
+        customText: 李彬的小站
 
     dateFormat:
         published: Jan 02, 2006
@@ -76,11 +76,11 @@ params:
         provider: disqus
 
         disqusjs:
-            shortname:
-            apiUrl:
-            apiKey:
-            admin:
-            adminLabel:
+            shortname: true
+            apiUrl: true
+            apiKey: true
+            admin: true
+            adminLabel: true
 
         utterances:
             repo:
@@ -224,7 +224,7 @@ markup:
     goldmark:
         renderer:
             ## Set to true if you have HTML content inside Markdown
-            unsafe: false
+            unsafe: true
     tableOfContents:
         endLevel: 4
         ordered: true
